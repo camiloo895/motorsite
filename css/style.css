@@ -77,6 +77,19 @@ background-size: cover;
     background-color: black;
 }
 
+@media (max-width: 576px){
+    .imgMarcas{
+        width: 576px;
+        grid-template-columns: repeat(1,1fr); 
+    }
+}
+
+@media (max-width: 992px){
+    .imgMarcas{
+        width: 992px;
+        grid-template-columns: repeat(12,1fr); 
+    }
+}
 .imagenesMotos{
     image-rendering: optimizeSpeed;
     margin: 5px 25px;
@@ -162,7 +175,21 @@ background-size: cover;
     margin: 30px;
 }
 
+.flexServ label{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 5px;
+    margin: 5px;
+    justify-content: left;
+    font-family: 'Open Sans', sans-serif;
+}
 .flexServ{
-    display: flexbox;
-    flex-flow: row;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.containerG{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }

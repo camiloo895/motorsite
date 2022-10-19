@@ -10,7 +10,8 @@
     <title>Document</title>
 </head>
 <body>
-    <!--logo header-->
+    <header>
+        <!--logo header-->
     <section class="col-12">
         <div class="banner1">
             <img class="tamanioLogo" src="../sources/img/logo.png" alt="logo1">
@@ -49,43 +50,63 @@
             <p class="daysOneSubTitulo">¡No esperes más! comienza una nueva aventura con nuestros excelentes precios y últimos modelos</p>
         </article>
     </header>
-
+    
     <main>
         <section class="bannerdeMarcas">
-            <img src="../sources/img/bannerMarcas.png" alt="">
+            <picture>
+                <source media="(max-width: 576px)" srcset="../sources/img/bannerMarcas2.png">
+                <img src="../sources/img/bannerMarcas.png" alt="">
+            </picture>                
+            
+            
         </section>
-        
-        <div class="imagenesMotos">
-            <article class="fieldSet">
-                <fieldset>
-                <img src="../sources/img/sport1.jpg" alt="">
-                <strong><p class="daysOneNormal">DEPORTIVAS</p></strong>
-                <p class="daysOneNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non veritatis, porro quo voluptatibus commodi harum quos, voluptates velit nihil laborum ullam, necessitatibus sapiente provident incidunt dignissimos minima vel reiciendis asperiores!</p>
-                </fieldset>
-            </article>
-            <article class="fieldSet">
-                <fieldset>
-                <img src="../sources/img/naked1.jpg" alt="">
-                <strong><p class="daysOneNormal">NAKED</p></strong>
-                <p class="daysOneNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non veritatis, porro quo voluptatibus commodi harum quos, voluptates velit nihil laborum ullam, necessitatibus sapiente provident incidunt dignissimos minima vel reiciendis asperiores!</p>
-                </fieldset>
-            </article>
-            
-            <section>
-                <fieldset>
-                <img src="../sources/img/enduro1.jpg" alt="">
-                <strong><p class="daysOneNormal">ENDURO</p></strong>
-                <p class="daysOneNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non veritatis, porro quo voluptatibus commodi harum quos, voluptates velit nihil laborum ullam, necessitatibus sapiente provident incidunt dignissimos minima vel reiciendis asperiores!</p>
-                </fieldset>
-            </section>
-            
-            <section>
-                <fieldset>
-                <img src="../sources/img/adventure1.jpg" alt="">
-                <strong><p class="daysOneNormal">ADVENTURE</p></strong>
-                <p class="daysOneNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non veritatis, porro quo voluptatibus commodi harum quos, voluptates velit nihil laborum ullam, necessitatibus sapiente provident incidunt dignissimos minima vel reiciendis asperiores!</p>
-                </fieldset>
-            </section>
+
+        <div class="row"> 
+            <div class="col-12 col-md-3 d-flex justify-content-center mt-3">
+                <div class="card" style="width: 18rem;">
+                    <article class="fieldSet">
+                        <fieldset>
+                        <img src="../sources/img/sport1.jpg" alt="">
+                        <strong><p class="daysOneNormal">DEPORTIVAS</p></strong>
+                        <p class="daysOneNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non veritatis, porro quo voluptatibus commodi harum quos, voluptates velit nihil laborum ullam, necessitatibus sapiente provident incidunt dignissimos minima vel reiciendis asperiores!</p>
+                        </fieldset>
+                    </article>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex justify-content-center mt-3">
+                <div class="card" style="width: 18rem;">
+                    <article class="fieldSet">
+                        <fieldset>
+                        <img src="../sources/img/naked1.jpg" alt="">
+                        <strong><p class="daysOneNormal">NAKED</p></strong>
+                        <p class="daysOneNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non veritatis, porro quo voluptatibus commodi harum quos, voluptates velit nihil laborum ullam, necessitatibus sapiente provident incidunt dignissimos minima vel reiciendis asperiores!</p>
+                        </fieldset>
+                    </article>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex justify-content-center mt-3">
+                <div class="card" style="width: 18rem;">
+                    <article class="fieldSet">
+                        <fieldset>
+                        <img src="../sources/img/enduro1.jpg" alt="">
+                        <strong><p class="daysOneNormal">ENDURO</p></strong>
+                        <p class="daysOneNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non veritatis, porro quo voluptatibus commodi harum quos, voluptates velit nihil laborum ullam, necessitatibus sapiente provident incidunt dignissimos minima vel reiciendis asperiores!</p>
+                        </fieldset>
+                    </article>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 d-flex justify-content-center mt-3">
+                <div class="card" style="width: 18rem;">
+                    <article class="fieldSet">
+                        <fieldset>
+                        <img src="../sources/img/adventure1.jpg" alt="">
+                        <strong><p class="daysOneNormal">ADVENTURE</p></strong>
+                        <p class="daysOneNormal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non veritatis, porro quo voluptatibus commodi harum quos, voluptates velit nihil laborum ullam, necessitatibus sapiente provident incidunt dignissimos minima vel reiciendis asperiores!</p>
+                        </fieldset>
+                    </article>
+                </div>
+            </div>
+            </div>
         </div>
     </main>
 
